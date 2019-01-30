@@ -44,7 +44,7 @@ end
 def all_winter_holiday_supplies(holiday_hash)
   #holiday_hash[:winter].values.flatten
  holiday_hash.each do |holiday, supply_hash|
-      if holiday.include?("winter")
+      if holiday.include?(:winter)
         supply_hash.each do |events, items|
         items.flatten
       end
