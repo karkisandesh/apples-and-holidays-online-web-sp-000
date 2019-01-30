@@ -61,7 +61,7 @@ def all_supplies_in_holidays(holiday_hash)
                            array.each do |word|
                                   word = word.capitalize!
                                                                 binding.pry
-                                  puts  "#{event} : #{supplies}"
+                                  puts  "#{word} : #{supplies}"
                               end
                       end
     end
