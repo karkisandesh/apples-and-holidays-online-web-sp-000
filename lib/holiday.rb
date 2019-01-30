@@ -48,7 +48,7 @@ def all_winter_holiday_supplies(holiday_hash)
       all_items = items
      end
   end
-  all_items
+  #all_items
 end
 
 def all_supplies_in_holidays(holiday_hash)
