@@ -42,7 +42,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
 end
 
 def all_winter_holiday_supplies(holiday_hash)
-  holiday_hash[:winter].values.flatten
+  #holiday_hash[:winter].values.flatten
  holiday_hash.each do |holiday, supply_hash|
       if holiday == :winter
         supply_hash.each do |events, items|
