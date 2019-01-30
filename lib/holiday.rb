@@ -81,6 +81,7 @@ def all_holidays_with_bbq(holiday_hash)
                 if  items.include?("BBQ")
                   str = events.to_s
                   str = str + " "
+                  array = str.join
                 end    
         end
       end
