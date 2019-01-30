@@ -48,11 +48,12 @@ def all_winter_holiday_supplies(holiday_hash)
         supply_hash.each do |events, items|
         items
         holiday_hash
+        binding.pry
        end
     end
   end
   all_items
-  binding.pry
+  
 end
 
 def all_supplies_in_holidays(holiday_hash)
