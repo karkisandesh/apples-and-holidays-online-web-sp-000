@@ -81,7 +81,7 @@ def all_holidays_with_bbq(holiday_hash)
       if  items.include?("BBQ")
           array = events
           binding.pry
-          .split(" ")
+          
           end    
       end
     end
