@@ -52,6 +52,7 @@ def all_winter_holiday_supplies(holiday_hash)
 end
 
 def all_supplies_in_holidays(holiday_hash)
+  new_array = [ ]
   holiday_hash.each do |season, supply_hash|
     season = season.to_s.capitalize!
     "#{season}"
