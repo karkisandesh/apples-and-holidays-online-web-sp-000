@@ -79,7 +79,8 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.collect do |season, supply_hash|
     supply_hash.collect do |events, items|
       if  items.include?("BBQ")
-          array = events.to_s(" ")
+          str = events.to_s
+          array = str.split(" ")
           end    
       end
     end
