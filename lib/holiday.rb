@@ -59,7 +59,7 @@ def all_supplies_in_holidays(holiday_hash)
               supply_hash.each do |events, supplies|
                 array = events.to_s.split(" ")
                          array.each do |word|
-                            new_array = word.capitalize!
+                          new_array = word.capitalize!
                          end
                         event = new_array.join
                         binding.pry
