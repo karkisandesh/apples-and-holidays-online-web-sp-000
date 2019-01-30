@@ -57,9 +57,9 @@ def all_supplies_in_holidays(holiday_hash)
     "#{season}"
         supply_hash.each do |events, supplies|
           array = events.to_s.split(" ")
-          binding.pry
           array.capitalize!
-          even = array.join
+          event = array.join
+          binding.pry
               puts  "#{event} : #{supplies}"
     
       end
