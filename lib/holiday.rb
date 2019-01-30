@@ -66,7 +66,6 @@ def all_supplies_in_holidays(holiday_hash)
                       puts  "#{new_array} : #{supplies}"
               end
          end
-   end
 end
 
   # iterate through holiday_hash and print items such that your readout resembles:
