@@ -56,7 +56,7 @@ def all_supplies_in_holidays(holiday_hash)
     #{season} : {supply_hash_hash.each do |events, supplies|
                 #{events}.to_s: #{supplies}
       
-    end
+                end
   end
 
   # iterate through holiday_hash and print items such that your readout resembles:
