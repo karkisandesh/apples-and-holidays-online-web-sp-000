@@ -63,7 +63,7 @@ def all_supplies_in_holidays(holiday_hash)
                          end
                           event = new_array.join
                           binding.pry
-                      puts  "#{event} : #{supplies}"
+                          puts  "#{event} : #{supplies}"
               end
          end
 end
