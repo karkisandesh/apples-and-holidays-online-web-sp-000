@@ -61,8 +61,8 @@ def all_supplies_in_holidays(holiday_hash)
                    array.each do |word|
                     array = word.capitalize!.join
                    end
-              events = word.join
-                puts  "#{events} : #{supplies}"
+              
+                puts  "#{array} : #{supplies}"
         end
       end
   end
