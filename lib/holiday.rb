@@ -80,7 +80,6 @@ def all_holidays_with_bbq(holiday_hash)
     supply_hash.collect do |events, items|
       if  items.include?("BBQ")
           array = events.to_s.split(" ")
-          array = array.joint(" ")
           end    
       end
     end
