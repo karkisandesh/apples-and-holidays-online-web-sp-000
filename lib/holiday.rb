@@ -51,6 +51,7 @@ def all_winter_holiday_supplies(holiday_hash)
     end
   end
   all_items
+  holiday_hash
    binding.pry
 end
 
