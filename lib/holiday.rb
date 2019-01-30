@@ -75,15 +75,15 @@ end
   # etc.
 
 def all_holidays_with_bbq(holiday_hash)
-  
+  array = [ ]
   holiday_hash.collect do |season, supply_hash|
     supply_hash.collect do |events, items|
       if  items.include?("BBQ")
-          events.to_s.flatten.compact
-          
-        end    
+          array = events.to_s
+          end    
       end
     end
+    array.flatten.compact
 end
 
 
