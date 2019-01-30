@@ -53,7 +53,7 @@ end
 
 def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, supply_hash|
-    supply_hash.each do |events, supplies|
+    {supply_hash.each do |events, supplies|
                 "#{events}.to_s: #{supplies}"
       
       end
